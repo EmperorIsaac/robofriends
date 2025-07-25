@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Greeting from "./greeting";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-    <h1>this is my react app</h1>
-    </div>
+  <div classname="App">
+   <Greeting name = "Emperor"/>
+  </div>
   );
 }
-
 export default App;
